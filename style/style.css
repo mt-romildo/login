@@ -17,12 +17,12 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 10%;
+    
     
 }
 
 form{
-    
+    margin-top: 15%;
     width:350px;
     height: 350px;
     border-radius: 15px;
@@ -34,6 +34,11 @@ form{
     
     
 }
+
+a{
+    color: #0f3443;
+}
+
 .user_img, label{
     text-align: center;
     color: #000;
@@ -79,3 +84,10 @@ form{
 .btn_2:hover{
     background-color: #34e89e ;
 }
+
+
+@media screen and (max-width: 950px) {
+    form{
+        margin-top: 40%;    
+    }
+  }
