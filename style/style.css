@@ -1,28 +1,25 @@
-    /*Reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Reset */
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
-    border: 0;
+    border: none;
 	font-size: 100%;
-	vertical-align: baseline;
+    border-style: none;
+    color: #0f3443;
+    font-family: 'Roboto';
 }
-
 /* Cor fundo*/
 body{
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     background: linear-gradient(to right,#34e89e, #0f3443 );
-
     display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 10%;
-    
+    align-items: center;
 }
-
 form{
-    
+    margin: 0 auto;
     width:350px;
     height: 350px;
     border-radius: 15px;
@@ -31,14 +28,11 @@ form{
     align-content: center;
     justify-content: center;
     color: red;
-    
-    
 }
 .user_img, label{
     text-align: center;
     color: #000;
 }
-
 .user_img img{
     margin-top: -140px;
     background-color: white;
@@ -61,7 +55,6 @@ form{
     text-align: center;
     color: #0f3443;
 }
-
 .btn_2{
     width: 300px;
     height: 35px;
@@ -71,11 +64,9 @@ form{
     background-color: #0f3443;
     margin: 10px;
 }
-
 .btn:active{
     border: 2px solid #0f3443;
 }
-
 .btn_2:hover{
     background-color: #34e89e ;
 }
